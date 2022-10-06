@@ -8,7 +8,7 @@
 </head>
 <body>
     Hi <br>
-    Change your password <a href="http://127.0.0.1:8000/reset/{{$data}}">Click here</a>
+    Change your password <a href="http://localhost:3000/reset/{{$data}}">Click here</a>
     <br>
     pincode : {{$data}}
 </body>

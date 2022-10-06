@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 
-class ForgetPassword extends Controller
+class ForgetPasswordController extends Controller
 {
     public function forgetPassword(Request $request)
     {
